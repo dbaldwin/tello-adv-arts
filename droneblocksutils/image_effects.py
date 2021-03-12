@@ -118,6 +118,7 @@ def reset_style_model():
 
 def style_transfer(image, model_path):
     global style_model
+    style_model = None
 
     # check to make sure we have an image to operate on
     if image is None:
