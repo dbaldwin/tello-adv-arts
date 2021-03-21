@@ -12,6 +12,59 @@ Below is a small example of some of the video effects that the course will cover
 
 ![Montage](./media/montage.png)
 
+## Install Instructions
+
+* Download the course content zip file from this [Github Repo](https://github.com/dbaldwin/tello-adv-arts)
+
+* Unzip the file.  This will create a folder
+
+* Rename the folder to remove the '-master' portion.  The directory should be called: `tello-adv-arts`
+
+* Open a terminal window and change directory to the folder with the course content
+
+* Create a python virtual environment:
+
+Check to make sure you are using Python 3.6 or greater:
+
+```shell
+python --version
+```
+
+or
+```shell
+python3 --version
+```
+
+Make sure to use the python or python3 command that returns the version number of 3.6 or greater.
+
+*MacOS* or *Windows*
+
+```shell
+python3 -m venv venv
+```
+
+* Activate python virtual environment
+
+*MacOS*
+```shell
+source venv/bin/activate
+```
+
+*Windows*
+```shell
+venv\Scripts\activate.bat 
+```
+
+* Install course requirments
+
+```shell
+pip install -r requirements.txt
+```
+
+```shell
+pip install https://github.com/damiafuentes/DJITelloPy/archive/master.zip
+```
+
 
 ## Examples
 
