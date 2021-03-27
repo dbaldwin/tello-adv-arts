@@ -72,18 +72,30 @@ Below are some examples of scripts to run to see image effects in action.
 
 These examples use the computers web cam to simulate the Tello drone video feed.  This is a great way to get an idea of you can expect when you run it with the Tello drone.
 
-### Style Transfer Example
+### Style Transfer Example - Computer WebCam
 
 This example shows how we can take the style from one image and apply it to the content of a video feed.
 
-`python tello_script_runner.py --display-video --tello-video-sim --handler style_transfer_user_script.py`
+`python tello_script_runner.py --display-video --tello-video-sim --show-original-video --handler style_transfer_user_script.py`
 
 
-### Image Effects Example
+### Style Transfer Example - Tello
+
+This example shows how we can take the style from one image and apply it to the content of a video feed.
+
+`python tello_script_runner.py --display-video --show-original-video --fly --handler style_transfer_user_script.py`
+
+### Image Effects Example - Computer WebCam
 
 This example shows how we can implement image processing and apply it to the content of a video feed.
 
-`python tello_script_runner.py --display-video --tello-video-sim --handler image_effects_user_script.py`
+`python tello_script_runner.py --display-video --tello-video-sim --show-original-video --handler image_effects_user_script.py`
+
+### Image Effects Example - Tello
+
+This example shows how we can implement image processing and apply it to the content of a video feed.
+
+`python tello_script_runner.py --display-video --show-original-video --fly --handler image_effects_user_script.py`
 
 ## Tests
 

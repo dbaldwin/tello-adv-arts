@@ -14,6 +14,7 @@ setup(
         'opencv-python==4.5.1.48',
         'opencv-contrib-python==4.5.1.48',
         'imutils==0.5.4',
+        'djitellopy2==2.3'
     ]
 
 )
